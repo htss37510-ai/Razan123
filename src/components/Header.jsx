@@ -11,6 +11,10 @@ const Header = () => {
     <header className="main-header">
       <div className="header-content">
         <div className="logo-section" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
+          <div className="company-info">
+            <h1>الرزان</h1>
+            <p>مجموعة الرزان العلمية لدعاية الأدوية</p>
+          </div>
           <div className="logo-box">
              <img 
                src="/logo.png" 
@@ -22,10 +26,6 @@ const Header = () => {
                <span className="logo-a">A</span>
                <span className="logo-r">R</span>
              </div>
-          </div>
-          <div className="company-info">
-            <h1>الرزان</h1>
-            <p>مجموعة الرزان العلمية لدعاية الأدوية</p>
           </div>
         </div>
 
